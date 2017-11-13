@@ -13,6 +13,8 @@
 		FA43F8FB1FB9840A00E53988 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA43F8FA1FB9840A00E53988 /* Assets.xcassets */; };
 		FA43F8FE1FB9840A00E53988 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA43F8FC1FB9840A00E53988 /* LaunchScreen.storyboard */; };
 		FA43F9091FB9840A00E53988 /* UnitTestPracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA43F9081FB9840A00E53988 /* UnitTestPracticeTests.swift */; };
+		FA43F9141FB9849300E53988 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA43F9131FB9849300E53988 /* Car.swift */; };
+		FA43F9161FB9899400E53988 /* CarTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA43F9151FB9899400E53988 /* CarTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		FA43F9041FB9840A00E53988 /* UnitTestPracticeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTestPracticeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA43F9081FB9840A00E53988 /* UnitTestPracticeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestPracticeTests.swift; sourceTree = "<group>"; };
 		FA43F90A1FB9840A00E53988 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA43F9131FB9849300E53988 /* Car.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Car.swift; path = UnitTestPracticeTests/Car.swift; sourceTree = SOURCE_ROOT; };
+		FA43F9151FB9899400E53988 /* CarTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CarTest.swift; path = ../UnitTestPractice/CarTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,7 @@
 			children = (
 				FA43F8F31FB9840A00E53988 /* AppDelegate.swift */,
 				FA43F8F51FB9840A00E53988 /* ViewController.swift */,
+				FA43F9131FB9849300E53988 /* Car.swift */,
 				FA43F8F71FB9840A00E53988 /* Main.storyboard */,
 				FA43F8FA1FB9840A00E53988 /* Assets.xcassets */,
 				FA43F8FC1FB9840A00E53988 /* LaunchScreen.storyboard */,
@@ -90,6 +95,7 @@
 		FA43F9071FB9840A00E53988 /* UnitTestPracticeTests */ = {
 			isa = PBXGroup;
 			children = (
+				FA43F9151FB9899400E53988 /* CarTest.swift */,
 				FA43F9081FB9840A00E53988 /* UnitTestPracticeTests.swift */,
 				FA43F90A1FB9840A00E53988 /* Info.plist */,
 			);
@@ -203,6 +209,7 @@
 			files = (
 				FA43F8F61FB9840A00E53988 /* ViewController.swift in Sources */,
 				FA43F8F41FB9840A00E53988 /* AppDelegate.swift in Sources */,
+				FA43F9141FB9849300E53988 /* Car.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,6 +217,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA43F9161FB9899400E53988 /* CarTest.swift in Sources */,
 				FA43F9091FB9840A00E53988 /* UnitTestPracticeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
